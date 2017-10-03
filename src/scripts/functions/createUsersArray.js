@@ -18,9 +18,9 @@ function createUserEntryArray(data) {
   let obj = {}
   for (let key1 in unique_macs) {
     for (let key in data) {
-      let search = data[key].cellphones.filter(function (cell) { return cell.mac == unique_macs[key1] });
+      let search = data[key].cellphones.filter(function (cell) { return cell.mac === unique_macs[key1] });
       // let search = data[key].cellphones.filter(function (cell) { return cell.mac == unique_macs[100] });
-      if (search.length != 0 && search[0].rssi > -85) {
+      if (search.length !== 0 && search[0].rssi > -85) {
       obj = {"timestamp":data[key].timestamp, "cellphone" : search}
         userEntries.push(obj)
       } else {
@@ -38,22 +38,9 @@ function createUserEntryArray(data) {
   return userEntryArray
 
 }
-
-function getUserEntries(data,macId) {
-
-  let userEntries = []
-  for (let key in data) {
-    let search = data[key].cellphones.filter(function (cell) { return cell.mac == macId });
-    userEntries.push(search)
-  }
-  return userEntries
-
-}
-
 function getAllMacIds(data) {
 
   let newArray = []
-  let obj = {}
   for (let key in data) {
     for (let key1 in data[key].cellphones)
           newArray.push(data[key].cellphones[key1].mac)
