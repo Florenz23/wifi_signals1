@@ -44,16 +44,6 @@ function makeSimpleArray(data) {
 
 }
 
-function makeAverage() {
-
-  let values = [2, 56, 3, 41, 0, 4, 100, 23];
-  let sum = values.reduce((previous, current) => current += previous);
-  let avg = sum / values.length;
-  avg = Math.round(avg)
-  console.log(avg)
-}
-
-
 function groupArray(data) {
   //change this
   const group_number = 10
@@ -69,7 +59,7 @@ function groupArray(data) {
     }
     object.timestamp = data[i].timestamp
     counter++
-    if(counter == group_number){
+    if(counter === group_number){
       new_array.push(object)
       object = {
         "cellphones" : [] ,

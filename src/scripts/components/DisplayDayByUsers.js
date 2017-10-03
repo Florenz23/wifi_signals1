@@ -1,5 +1,4 @@
 import React from 'react';
-import easyGroup from '../functions/easyGroup'
 import createUsersArray from '../functions/createUsersArray'
 import timestampToTime from '../functions/timestampToTime'
 
@@ -16,7 +15,6 @@ export default class DisplayDayByUsers extends React.Component {
     let first_time = timestampToTime(first_timestamp)
     let last_timestamp = data[index][data[index].length-1].timestamp
     let last_time = timestampToTime(last_timestamp)
-    let time_arr = []
     let d = [`M ${this.props.x} ${this.props.y}`];
     let multiplier = this.props.height/(this.props.max)
     let check_arr = []
@@ -31,7 +29,7 @@ export default class DisplayDayByUsers extends React.Component {
         check_obj.time = hour
         check_obj.rssi = chunk.cellphone[0].rssi
         check_arr.push(check_obj)
-      if (chunk.cellphone[0].rssi != -100) {
+      if (chunk.cellphone[0].rssi !== -100) {
         // console.log(chunk.cellphone[0].mac)
       }
       return `L ${xNext} ${yNext}`;

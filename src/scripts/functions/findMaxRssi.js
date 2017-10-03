@@ -1,9 +1,5 @@
 export default function findMaxRssi(data){
 
-  let max = Math.max.apply(null,
-                        Object.keys(data).map(function(e) {
-                                return data[e].cellphones.length
-                        }));
   let maxRssi = getMaxRssi(data)
   maxRssi = Math.round(maxRssi)
   maxRssi = maxRssi + 100

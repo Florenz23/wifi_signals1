@@ -1,6 +1,5 @@
 import React from 'react';
 import easyGroup from '../functions/easyGroup'
-import findMax from '../functions/findMax'
 import findMaxNew from '../functions/findMaxNew'
 import timestampToTime from '../functions/timestampToTime'
 
