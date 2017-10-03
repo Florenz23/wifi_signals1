@@ -26,7 +26,6 @@ export default class LegendY extends React.Component {
 
   render() {
     let coords = this.prepareCords();
-    let time_max = this.props.x_max
     let multiplicator = this.props.length/9
     let multiplicator_data = Math.round(this.props.data.length/9)
 

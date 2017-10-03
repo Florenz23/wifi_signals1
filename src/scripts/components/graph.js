@@ -22,7 +22,7 @@ export default class Graph extends React.Component {
     return hour
   }
   renderContent(lastTime,data) {
-    if (this.props.viewSelection == 0) {
+    if (this.props.viewSelection === 0) {
       return (
           <DisplayDay
             x={50}
@@ -35,7 +35,7 @@ export default class Graph extends React.Component {
           />
       )
     }
-    if (this.props.viewSelection == 1) {
+    if (this.props.viewSelection === 1) {
       return (
           <DisplayDaySimple
             x={50}
@@ -48,7 +48,7 @@ export default class Graph extends React.Component {
           />
       )
     }
-    if (this.props.viewSelection == 2) {
+    if (this.props.viewSelection === 2) {
       return (
           <DisplayDayByUsers
             x={50}
@@ -63,7 +63,7 @@ export default class Graph extends React.Component {
     }
   }
   renderLegend(data) {
-    if (this.props.viewSelection == 0 ) {
+    if (this.props.viewSelection === 0 ) {
       return (
         <LegendY
           x={0}
@@ -73,7 +73,7 @@ export default class Graph extends React.Component {
         />
       )
     }
-    if (this.props.viewSelection == 1) {
+    if (this.props.viewSelection === 1) {
       let groupData = easyGroup(data)
       let max = findMaxNew(groupData)
       return (
@@ -85,7 +85,7 @@ export default class Graph extends React.Component {
         />
       )
     }
-    if (this.props.viewSelection == 2) {
+    if (this.props.viewSelection === 2) {
       return (
         <LegendY
           x={0}
@@ -100,11 +100,11 @@ export default class Graph extends React.Component {
     let display_timestamps = timestamps
 
     let start_time = time
-    if (time == "day") {
+    if (time === "day") {
       display_timestamps = 999999
       start_time = 0
     }
-    if (display_timestamps == "day") {
+    if (display_timestamps === "day") {
       display_timestamps = 999999
     }
     let zoomData = zoomPeriod(allData,start_time,display_timestamps)

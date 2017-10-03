@@ -1,6 +1,4 @@
 import React from 'react';
-import createSimpleArray from '../functions/createSimpleArray'
-import groupByPassedTime from '../functions/groupByPassedTime'
 import easyGroup from '../functions/easyGroup'
 import findMax from '../functions/findMax'
 import findMaxNew from '../functions/findMaxNew'
@@ -19,8 +17,6 @@ export default class DisplayDaySimple extends React.Component {
 
     let last_timestamp = data[data.length-1].timestamp
     let last_time = timestampToTime(last_timestamp)
-    // console.log(max)
-    // let dataCut = groupByPassedTime()
     let d = [`M ${this.props.x} ${this.props.y}`];
     let multiplier = this.props.height/(max)
     let collector = data.map(chunk => {

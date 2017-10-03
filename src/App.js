@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Graph from './scripts/components/graph'
-import readUrl from './scripts/functions/zoom/readUrl'
 
 
 export default class App extends React.Component {
@@ -24,8 +23,6 @@ export default class App extends React.Component {
 
 
   render() {
-    let parametes = readUrl()
-    console.log(parametes)
     let options = this.props.views.map((value, index) => {
       return <option key={index} value={index}>Ansicht {value}</option>
     });
