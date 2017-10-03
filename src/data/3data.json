@@ -1,0 +1,80 @@
+[[{
+  "node": "wifi4garden1",
+  "cellphones": [
+    {
+      "rssi": -91,
+      "company": "Apple, Inc.",
+      "mac": "80:e6:50:e1:80:c0"
+    },
+    {
+      "rssi": -86,
+      "company": "Apple, Inc.",
+      "mac": "8c:2d:aa:44:3d:df"
+    }
+  ],
+  "timestamp": 1504731535
+},
+{
+  "node": "wifi4garden1",
+  "cellphones": [
+    {
+      "rssi": -10,
+      "company": "Apple, Inc.",
+      "mac": "80:e6:50:e1:80:cd"
+    },
+    {
+      "rssi": -94,
+      "company": "Apple, Inc.",
+      "mac": "8c:2d:aa:44:3d:df"
+    },
+    {
+      "rssi": -94,
+      "company": "Apple, Inc.",
+      "mac": "8c:2d:aa:44:3d:df"
+    }
+  ],
+  "timestamp": 1504732535
+},
+{
+  "node": "wifi4garden1",
+  "cellphones": [
+    {
+      "rssi": -91,
+      "company": "Apple, Inc.",
+      "mac": "80:e6:50:e1:80:cd"
+    },
+    {
+      "rssi": -86,
+      "company": "Apple, Inc.",
+      "mac": "8c:2d:aa:44:3d:df"
+    }
+  ],
+  "timestamp": 1504733536
+},
+{
+  "node": "wifi4garden1",
+  "cellphones": [
+    {
+      "rssi": -91,
+      "company": "Apple, Inc.",
+      "mac": "80:e6:50:e1:80:c0"
+    },
+    {
+      "rssi": -86,
+      "company": "Apple, Inc.",
+      "mac": "8c:2d:aa:44:3d:df"
+  },
+    {
+      "rssi": -86,
+      "company": "Apple, Inc.",
+      "mac": "8c:2d:aa:44:3d:df"
+  },
+    {
+      "rssi": -86,
+      "company": "Apple, Inc.",
+      "mac": "8c:2d:aa:44:3d:df"
+    }
+  ],
+  "timestamp": 1504734536
+}
+]]

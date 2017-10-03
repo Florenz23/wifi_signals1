@@ -1,0 +1,34 @@
+[[
+{
+  "node": "wifi4garden1",
+  "cellphones": [
+    {
+      "rssi": -94,
+      "company": "Apple, Inc.",
+      "mac": "80:e6:50:e1:80:c0"
+    },
+    {
+      "rssi": -94,
+      "company": "Apple, Inc.",
+      "mac": "8c:2d:aa:44:3d:df"
+    }
+  ],
+  "timestamp": 1504732535
+},
+{
+  "node": "wifi4garden1",
+  "cellphones": [
+    {
+      "rssi": -91,
+      "company": "Apple, Inc.",
+      "mac": "80:e6:50:e1:80:c0"
+    },
+    {
+      "rssi": -86,
+      "company": "Apple, Inc.",
+      "mac": "8c:2d:aa:44:3d:df"
+    }
+  ],
+  "timestamp": 1504733536
+}
+]]

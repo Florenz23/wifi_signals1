@@ -1,0 +1,122 @@
+[{
+  "node": "wifi4garden1",
+  "cellphones": [
+    {
+      "rssi": -91,
+      "company": "Apple, Inc.",
+      "mac": "8c:2d:aa:44:3d:df"
+    }
+  ],
+  "timestamp": 1505952322
+},
+{
+  "node": "wifi4garden1",
+  "cellphones": [
+    {
+      "rssi": -91,
+      "company": "Apple, Inc.",
+      "mac": "8c:2d:aa:44:3d:df"
+    }
+  ],
+  "timestamp": 1505955922
+},
+{
+  "node": "wifi4garden1",
+  "cellphones": [
+    {
+      "rssi": -91,
+      "company": "Apple, Inc.",
+      "mac": "8c:2d:aa:44:3d:df"
+    }
+  ],
+  "timestamp": 1505959522
+},
+{
+  "node": "wifi4garden1",
+  "cellphones": [
+    {
+      "rssi": -80,
+      "company": "Apple, Inc.",
+      "mac": "80:e6:50:e1:80:c0"
+    }
+  ],
+  "timestamp": 1505963122
+},
+{
+  "node": "wifi4garden1",
+  "cellphones": [
+    {
+      "rssi": -70,
+      "company": "Apple, Inc.",
+      "mac": "80:e6:50:e1:80:c0"
+    }
+  ],
+  "timestamp": 1505973922
+},
+{
+  "node": "wifi4garden1",
+  "cellphones": [
+    {
+      "rssi": -80,
+      "company": "Apple, Inc.",
+      "mac": "80:e6:50:e1:80:c0"
+    }
+  ],
+  "timestamp": 1505984722
+},
+{
+  "node": "wifi4garden1",
+  "cellphones": [
+    {
+      "rssi": -91,
+      "company": "Apple, Inc.",
+      "mac": "8c:2d:aa:44:3d:df"
+    }
+  ],
+  "timestamp": 1505995522
+},
+{
+  "node": "wifi4garden1",
+  "cellphones": [
+    {
+      "rssi": -91,
+      "company": "Apple, Inc.",
+      "mac": "8c:2d:aa:44:3d:df"
+    }
+  ],
+  "timestamp": 1506016822
+},
+{
+  "node": "wifi4garden1",
+  "cellphones": [
+    {
+      "rssi": -80,
+      "company": "Apple, Inc.",
+      "mac": "80:e6:50:e1:80:c0"
+    }
+  ],
+  "timestamp": 1506017122
+},
+{
+  "node": "wifi4garden1",
+  "cellphones": [
+    {
+      "rssi": -80,
+      "company": "Apple, Inc.",
+      "mac": "80:e6:50:e1:80:c0"
+    }
+  ],
+  "timestamp": 1506020722
+},
+{
+  "node": "wifi4garden1",
+  "cellphones": [
+    {
+      "rssi": -80,
+      "company": "Apple, Inc.",
+      "mac": "80:e6:50:e1:80:c1"
+    }
+  ],
+  "timestamp": 1506021022
+}
+]

@@ -1,8 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+// import data from './data/data'
+// import data from './data/one_day'
+// var jsonData = require('json!./data/3data.json');
+// var jsonData = require('json!./data/new_data.json');
+// var jsonData = require('json!./data/3entries_macs.json');
+// var jsonData = require('json!./data/new_files/170912_a.json');
+// var jsonData = require('json!./data/new_files/170915.json');
+// var jsonData = require('json!./data/big_data.json');
+// var jsonData = require('json!./data/data_mac.json');
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+
+
+// change file here
+// var jsonData = require('json!./py/new_folder/170916.json');
+var jsonData = require('./py/new_folder/170916.json');
+
+ReactDOM.render(<App datasets={jsonData}/>, document.getElementById('root'));
